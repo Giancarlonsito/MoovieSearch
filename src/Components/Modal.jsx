@@ -1,4 +1,6 @@
-export default function Modal({ visible, movie, closeModal }) {
+
+export default function Modal({ movie, closeModal }) {
+
   const handleGenresByNumber = (genre) => {
     switch (genre) {
       case 28:

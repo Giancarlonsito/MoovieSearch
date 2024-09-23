@@ -12,7 +12,7 @@ export default function MovieCard({ movie, imageUrl, handleMovieClick }) {
   };
 
   const trimText = (text) => {
-    const limit = 170;
+    const limit = 120;
 
     if (text.length > limit) {
       const newText = text.slice(0, limit) + "...";

@@ -10,8 +10,8 @@ export default {
         1: "5px",
       },
       animation: {
-        "modal-show": "modalShow .3s ease",
-        "modal-hide": "modalHide .3s ease",
+        "modal-show": "modalShow .2s ease",
+        "modal-hide": "modalHide .2s ease",
       },
       keyframes: {
         modalShow: {
@@ -20,7 +20,7 @@ export default {
         },
         modalHide: {
           "0%": { scale: "1", opacity: "1" },
-          "95%": { scale: "0.7", opacity: ".7" },
+          "95%": { scale: "0.9", opacity: "0.7" },
           "100%": { display: "none" },
         },
       },
