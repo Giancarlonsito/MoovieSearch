@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./main.css";
 
 createRoot(document.getElementById("root")).render(
-    <Analytics>
-        <App />ss
-    </Analytics>
+        <App>
+            <Analytics/>
+        </App>
 );
