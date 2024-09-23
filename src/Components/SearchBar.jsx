@@ -37,7 +37,6 @@ export default function SearchBar({
               handleSearch(e.target.value);
             }
           }}
-          disabled={isLoading}
         />
 
         <button
